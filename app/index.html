@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="bookStroeApp">
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<script type="text/javascript" src="framework/angular.min.js"></script>
+		<script type="text/javascript" src="framework/angular-ui-router.min.js"></script>
+		<script type="text/javascript" src="framework/angular-animate.js"></script>
+		<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/controllers.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/filters.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/services.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/directives.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="page {{pageClass}}" ui-view>
+		</div>
+	</body>
+
+</html>
